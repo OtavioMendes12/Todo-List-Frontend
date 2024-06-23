@@ -4,7 +4,7 @@ import Modal from "@mui/material/Modal";
 import Button from "@mui/material/Button";
 import TextField from "@mui/material/TextField";
 import Autocomplete from "@mui/material/Autocomplete";
-import { createTodo } from "../../../src/service/TarefasService"; // Certifique-se de que o caminho esteja correto
+import { createTodo } from "../../../service/TarefasService"; // Certifique-se de que o caminho esteja correto
 
 const style = {
   position: "absolute",

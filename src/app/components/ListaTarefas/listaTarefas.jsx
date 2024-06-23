@@ -1,7 +1,7 @@
 import * as React from "react";
 import { DataGrid } from "@mui/x-data-grid";
 import { useEffect, useState } from "react";
-import { getTodos, updateTodo, deleteTodo } from "../../../src/service/TarefasService";
+import { getTodos, updateTodo, deleteTodo } from "../../../service/TarefasService";
 import DeleteIcon from "@mui/icons-material/Delete";
 import ButtonCreate from "../ButtonCreate/ButtonCreate";
 import Button from "@mui/material/Button";
